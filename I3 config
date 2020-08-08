@@ -59,12 +59,12 @@ bindsym $mod+w exec firefox
 bindsym $mod+c exec discord
 bindsym $mod+g exec steam
 bindsym $mod+Shift+g exec lutris
-bindsym $mod+shift+f exec dolphin
+bindsym $mod+shift+f exec thunar
 bindsym $mod+shift+s exec spotify
 
 #autostart apps
 exec --no-startup-id compton
-exec --no-startup-id nitrogen
+exec --no-startup-id nitrogen --restore
 
 # change focus
 bindsym $mod+j focus left
